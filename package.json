@@ -1,0 +1,23 @@
+{
+  "name": "kairox",
+  "version": "0.1.0",
+  "private": true,
+  "license": "BSD-3-Clause",
+  "type": "module",
+  "scripts": {
+    "inspect": "node app/Kairox.mjs"
+  },
+  "dependencies": {
+    "@coinbase/wallet-sdk": "latest",
+    "@coinbase/onchainkit": "latest",
+    "@coinbase/cdp-sdk": "latest",
+    "@coinbase/agentkit": "latest",
+    "@base/node": "latest",
+    "base-web": "latest",
+    "@base/account-sdk": "latest",
+    "viem": "latest",
+    "ethers": "latest",
+    "web3": "latest",
+    "axios": "latest"
+  }
+}
